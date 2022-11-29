@@ -1,0 +1,16 @@
+{
+    "manifest_version": 1.0,
+    "id": "indicadores",
+    "name": "Indicadores de Calidad",
+    "version": "1.0",
+    "namespace": "Indicadores",
+    "author": "Xavier Iglesias",
+    "description": "Prueba para el modulo de Indicadores de Calidad",
+    "actions": {
+        "indicadores.view": {
+            "class": "IndicadoresView",
+            "view": "module.indicadores.view"
+        }
+    }
+
+}
