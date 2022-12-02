@@ -8,8 +8,8 @@ require_once './include/page_header.php';
 
 // Aquí va el código para conectarse a la API
 
-$data['sla'] = API::Sla->getSli([
-	'slaid' => '1'
+$data['hosts'] = API::Host()->get([
+	'output' => ['name', 'hostid']
 ]);
 
 
